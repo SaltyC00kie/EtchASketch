@@ -10,10 +10,14 @@
 <body>
     <div class="container"></div>
     <div class="settings">
+        <div id="rangeOutputDiv">
+            <div id="rangeOutput">16 x 16</div>
+        </div>
         <input type="range" min="16" max="100" class="rangeSlider" /> 
-
-        <button class="btn">Change Area</button>
-
+        <div class="btnDiv"> 
+            <button class="btn" id="btnChangeArea">Change Grid</button>
+            <button class="btn" id="btnRgb"> RGB </button>
+        </div>
     </div>
 </body>
 <script src='main.js'></script>
